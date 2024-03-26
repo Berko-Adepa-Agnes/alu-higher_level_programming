@@ -1,4 +1,5 @@
-ummary__
+#!/usr/bin/python3
+"""__summary__
 - Write a Python script takes in a URL
 - sends a POST request to the passed URL
 - takes email as a parameter
