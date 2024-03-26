@@ -1,3 +1,3 @@
 #!/bin/bash
-# Get the response body for a given URL for 200 status code responses.
-curl -sL "$1"
+# Send a DELETE request to a given URL and display the response body.
+curl -sX DELETE "$1"
