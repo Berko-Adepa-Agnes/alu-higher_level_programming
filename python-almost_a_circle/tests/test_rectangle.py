@@ -1,4 +1,5 @@
-t Rectangle"""
+#!/usr/bin/python3
+"""Test Rectangle"""
 
 import unittest
 from io import StringIO

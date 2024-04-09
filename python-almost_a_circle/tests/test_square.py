@@ -1,4 +1,5 @@
-t for Square"""
+#!/usr/bin/python3
+"""Test for Square"""
 
 import os
 import unittest
