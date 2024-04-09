@@ -1,5 +1,4 @@
-#!/usr/bin/python3
-"""Unit tests for Base, Rectangle, and Square classes"""
+t tests for Base, Rectangle, and Square classes"""
 
 import os
 import unittest

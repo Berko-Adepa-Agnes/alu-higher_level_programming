@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-"""
-Write the class Square that inherits from Rectangle
+ass Square that inherits from Rectangle
 """
 from models.rectangle import Rectangle
 
