@@ -1,6 +1,6 @@
 #!/usr/bin/node
 const firstline = 'C is fun';
-const secondline = 'python is cool';
+const secondline = 'Python is cool';
 const thirdline = 'JavaScript is amazing';
 console.log(firstline);
 console.log(secondline);
