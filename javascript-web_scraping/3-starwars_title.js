@@ -9,7 +9,7 @@ request(url, function (error, response, body) {
     return;
   }
   if (response.statusCode !== 200) {
-    console.error('Invalid status code:', response.statusCode);
+    console.error(`Invalid status code: ${response.statusCode}`);
     return;
   }
   try {
