@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const request = require('request');
 const id = process.argv[2];
-const url = 'https://swapi.dev/api/films/' + id + '/';
+const url = `https://swapi.dev/api/films/${id}/`;
 
 request(url, function (error, response, body) {
   if (error) {
@@ -9,9 +9,9 @@ request(url, function (error, response, body) {
     return;
   }
   console.log('Response status code:', response.statusCode);
-  console.log('Response body:', body); // Log the response body for debugging
   if (response.statusCode !== 200) {
     console.error(`Invalid status code: ${response.statusCode}`);
+    console.error('Response body:', body); // Log the body for further inspection
     return;
   }
   try {
