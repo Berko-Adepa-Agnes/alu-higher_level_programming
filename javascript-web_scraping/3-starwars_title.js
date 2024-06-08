@@ -8,6 +8,8 @@ request(url, function (error, response, body) {
     console.error('Request error:', error);
     return;
   }
+  console.log('Response status code:', response.statusCode);
+  console.log('Response body:', body); // Log the response body for debugging
   if (response.statusCode !== 200) {
     console.error(`Invalid status code: ${response.statusCode}`);
     return;
